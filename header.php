@@ -87,7 +87,7 @@ if(!isset($_SESSION))
 	<div class="header-lower">
         	<div class="auto-container clearfix">
                 <!--Logo-->
-                <div class="logo"><a href="index.html"><img src="images/home/logo.png" alt="Bulldozer" title="Bulldozer"></a></div>
+                <div class="logo"><a href="index.php"><img src="images/home/logo.png" alt="Bulldozer" title="Bulldozer"></a></div>
                 
                 <!--Right Container-->
                 <div class="right-cont clearfix">
