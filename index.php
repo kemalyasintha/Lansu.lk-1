@@ -2,8 +2,11 @@
 	<section id="slider"><!--slider-->
 		<div class="container">
 			<div class="row">
+				<div id='addmy' class="col-sm-12">
+				Add My Items
+				</div>
 				<div class="col-sm-12">
-					<div id="slider-carousel" class="carousel slide" data-ride="carousel" style="width:600px; height:300px; margin: 0 auto ">
+					<div id="slider-carousel" class="carousel slide" data-ride="carousel" style="width:700px; height:300px; margin-left:auto;">
 						<ol class="carousel-indicators">
 							<li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
 							<li data-target="#slider-carousel" data-slide-to="1"></li>
@@ -20,7 +23,7 @@
 								</div>
 								<div class="col-sm-6">
 									<img src="images/home/girl1.jpg" class="girl img-responsive" alt="" />
-									<img src="images/home/pricing.png"  class="pricing" alt="" />
+									
 								</div>
 							</div>
 							<div class="item">
@@ -32,7 +35,7 @@
 								</div>
 								<div class="col-sm-6">
 									<img src="images/home/girl2.jpg" class="girl img-responsive" alt="" />
-									<img src="images/home/pricing.png"  class="pricing" alt="" />
+									
 								</div>
 							</div>
 							
@@ -45,7 +48,7 @@
 								</div>
 								<div class="col-sm-6">
 									<img src="images/home/girl3.jpg" class="girl img-responsive" alt="" />
-									<img src="images/home/pricing.png" class="pricing" alt="" />
+									
 								</div>
 							</div>
 							
