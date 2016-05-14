@@ -60,7 +60,7 @@ if(!isset($_SESSION))
 					 <?php 		
 	if(isset($_SESSION["lansu_username"]) ) { //Checking whether a user has logged in
 	?>
-				<li><a href="account.php"><span class="glyphicon glyphicon-user glyphicon-color"></span> My Account</a></li>
+				<li><a href="profile.php"><span class="glyphicon glyphicon-user glyphicon-color"></span> My Account</a></li>
 	
 	<?php }
 	else{
