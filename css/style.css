@@ -621,8 +621,8 @@ a.btn_yellow:hover {color: #FFF;}
 .main-header .header-lower{
 	position:relative;
 	background:#ffffff;
-	min-height:100px;
-	padding:20px 0px;
+	max-height:60px;
+	padding:10px 0px;
 }
 
 .main-header.header-fixed .header-lower{

@@ -31,8 +31,7 @@ if(!isset($_SESSION))
 <body>
 <div class="page-wrapper">
  	
-    <!-- Preloader -->
-    <div class="preloader"></div>
+   
  	
     <!-- Main Header -->
     <header id="scroll-to-search-box" class="main-header style-one">
@@ -91,30 +90,17 @@ if(!isset($_SESSION))
                 
                 <!--Right Container-->
                 <div class="right-cont clearfix">
-                <div id="search-button">
-                	<div class="search-btn">
-                    	<div class="f-icon flaticon-magnifying47"></div>
-                        <span class="curve"></span>
-                    </div>
-                </div>
+              
                     
                     <!-- Main Menu -->
                     <nav class="main-menu">
-                        <div class="navbar-header">
-                            <!-- Toggle Button -->      
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
-                        
+                                          
                         <div class="navbar-collapse collapse clearfix">                                                                                              
                             <ul class="nav navbar-nav navbar-right">
-                                <li class="current dropdown"><a href="index.php">Home</a></li>
-                                <li class="dropdown"><a href="items_search.php">All Items</a></li>
-								<li class="dropdown"><a href="#">About Us</a></li>
-								<li class="dropdown"><a href="#">Faq</a></li>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="items_search.php">All Items</a></li>
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Faq</a></li>
                                    
                             <div class="clearfix"></div>
         

@@ -6,7 +6,7 @@
 	//Hide Loading Box (Preloader)
 	function handlePreloader() {
 		if($('.preloader').length){
-			$('.preloader').delay(2).fadeOut(2);
+			$('.preloader').delay(0).fadeOut(0);
 		}
 	}
 	
