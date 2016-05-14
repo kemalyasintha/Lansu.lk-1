@@ -1,4 +1,5 @@
-
+	<link rel="stylesheet" type="text/css" href="css/bootstrapItemSearch.css">
+	
 	<?php include "header.php"; ?>
 	<?php include 'database/dbconnect.php'; ?>
 
@@ -105,9 +106,8 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-1">
-			</div>
-			<div class="col-sm-10" id="item_area">
+			
+			<div class="col-sm-12" id="item_area">
 				<?php
 					function test_input($data) {
 						$data = trim($data);
@@ -131,12 +131,19 @@
 						        $title=$row['title'];
 						        $price=$row['price'];
 						        ?>
-						        <a href="ss" class="btn btn-block">
-						        	<div class="jumbotron">
-						        		<?php echo $title."-->".$price;?>
-						        	</div>
+						        <a href="ss" class="btn btn-default btn-lg btn-block">
+						        	<div class="row">
+										<div class="col-sm-2">
+											<img src="images/home/new.png"/>
+										</div>
+										<div class="col-sm-6">
+											<?php echo $title;?>
+										</div>
+										<div class="col-sm-4">
+											<?php echo "Rs.".$price;?>
+										</div>
+									</div>						        	
 						        </a>
-									
 						        <?php
 						        echo "<br>";
 						    }
@@ -151,8 +158,7 @@
 					}
 				?>
 			</div>
-			<div class="col-sm-1">
-			</div>
+			
 		</div>
 
 	
