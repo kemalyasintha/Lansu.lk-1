@@ -11,7 +11,19 @@
 	        $title=$row['title'];
 	        $price=$row['price'];
 	        ?>
-	        <button class="btn btn-danger btn-lg btn-block" type="button"><?php echo $title."-->".$price;?></button>
+	        <a href="ss" class="btn btn-default btn-lg btn-block">
+	        	<div class="row">
+					<div class="col-sm-2">
+						<img src="images/home/new.png"/>
+					</div>
+					<div class="col-sm-6">
+						<?php echo $title;?>
+					</div>
+					<div class="col-sm-4">
+						<?php echo "Rs.".$price;?>
+					</div>
+				</div>						        	
+	        </a>
 	        <?php
 	        echo "<br>";
 	    }
