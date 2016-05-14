@@ -3,12 +3,6 @@
 	"use strict";
 	
 	
-	//Hide Loading Box (Preloader)
-	function handlePreloader() {
-		if($('.preloader').length){
-			$('.preloader').delay(0).fadeOut(0);
-		}
-	}
 	
 	//Change Header Style
 	function headerStyle() {

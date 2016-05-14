@@ -95,7 +95,7 @@ if(!isset($_SESSION))
                     <!-- Main Menu -->
                     <nav class="main-menu">
                                           
-                        <div class="navbar-collapse collapse clearfix">                                                                                              
+                        <div class="navbar-collapse clearfix">                                                                                              
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a href="index.php">Home</a></li>
                                 <li><a href="items_search.php">All Items</a></li>
